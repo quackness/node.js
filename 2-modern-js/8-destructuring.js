@@ -10,7 +10,7 @@ const { PI, E, SQRT2 }  = Math;
 // const { readFile } = require('fs');
 
 
-// const circle = {
+// const circle = {nof
 //   label: 'circleX',
 //   radius: 2,
 // };
@@ -36,6 +36,7 @@ const data = {
 };
 
 const { temp1, temp2, ...person } = data;
+console.log(temp1);
 console.log(person)
 
 const newArray = [...rest]
