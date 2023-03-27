@@ -4,7 +4,10 @@ const server = express();
 
 server.get('/', (req,res) => {
   res.send("test")
+})
 
+server.get('/about', (req,res) => {
+  res.send("About")
 })
 
 server.listen(4242, () => {
