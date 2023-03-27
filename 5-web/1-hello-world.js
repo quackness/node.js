@@ -1,7 +1,7 @@
 const http = require('http');
 
 const requestListener = (req,res) => {
-  res.end('Hello World\n');
+  res.end('Hello World\n');//.end is a shorthand to res.write("string") + res.end()
 }
 
 const server = http.createServer()
